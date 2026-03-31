@@ -98,7 +98,7 @@
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Levasey&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
+![Mikhail's GitHub stats](https://github-readme-stats.vercel.app/api?username=Levasey&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Levasey&layout=compact&theme=dark&hide_border=true&langs_count=8&exclude_repo=github-readme-stats)
 
