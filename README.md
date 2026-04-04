@@ -90,7 +90,6 @@
 |--------|----------------|------|
 | Spring blog (Hexlet) | Spring MVC, classic web | [hexlet-spring-blog](https://github.com/Levasey/hexlet-spring-blog) |
 | Algorithms practice | Java drills | [grokking-algorithms](https://github.com/Levasey/grokking-algorithms) · [algorithms-project-69](https://github.com/Levasey/algorithms-project-69) |
-| CI course playground | GitHub Actions | [hexlet-ci-app](https://github.com/Levasey/hexlet-ci-app) |
 
 ---
 
