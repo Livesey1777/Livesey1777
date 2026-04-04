@@ -125,8 +125,8 @@
 
 ## 📝 Education
 
-- **Hexlet** — Java Developer (**2025–2026**, track in progress / completed blocks — adjust to your fact)
-- **JavaRush** — Java Core (levels completed — adjust to your fact)
+- **Hexlet** — Java Developer (**2025–2026**, Hexlet карьера)
+- **JavaRush** — Java Core (29 levels completed)
 
 **Self-directed**
 - Algorithms & structures (books + practice)
