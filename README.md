@@ -4,7 +4,7 @@
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Location](https://img.shields.io/badge/Omsk,_Russia-FFFFFF?style=for-the-badge&logo=google-maps&logoColor=red)
 
-**Backend Java Engineer** with **~1.5 years** of focused learning and hands-on projects. I build server-side apps with **Java** and the **Spring** ecosystem, care about **clear architecture**, **tests**, and **working with databases** in a predictable way (migrations, transactions, sensible ORM usage).
+**Backend Java Engineer** with **~1 year 3 months** at Hexlet plus consistent hands-on projects (**~1.5 years** focused practice overall). I build server-side apps with **Java** and the **Spring** ecosystem, care about **clear architecture**, **tests**, and **working with databases** in a predictable way (migrations, transactions, sensible ORM usage). Recent work includes **event-driven microservices** and **Kafka** (see the **Saga** demo repo).
 
 ---
 
@@ -18,6 +18,10 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white)
 
+### **Messaging & distributed patterns**
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![Spring Kafka](https://img.shields.io/badge/Spring_for_Apache_Kafka-6DB33F?style=flat&logo=spring&logoColor=white)
+
 ### **Databases & ORM**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![H2 Database](https://img.shields.io/badge/H2-4479A1?style=flat&logo=h2&logoColor=white)
@@ -28,6 +32,8 @@
 ### **Tools & DevOps**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white)
+![Testcontainers](https://img.shields.io/badge/Testcontainers-E40521?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white)
@@ -36,6 +42,14 @@
 ---
 
 ## 📁 Featured Projects
+
+### **🔄 Saga orchestration (microservices, Kafka)** | [View Repository](https://github.com/Levasey/saga-pattern-spring-boot)
+*Java 17, Spring Boot 3.2, Maven (multi-module), Spring Web, Spring Data JPA, Hibernate, PostgreSQL, Apache Kafka, Spring Kafka, Docker Compose, Testcontainers, JUnit 5, Jakarta Bean Validation, Jackson*
+
+- **Saga orchestration**: **orders-service** drives **reserve → pay → approve** using Kafka **command/event** topics; on payment failure, **compensation** cancels the product reservation and rejects the order
+- Shared **core** module (**DTOs**, **commands**, **events**); REST + JPA in each service; **HTTP** client to a mock **credit-card processor**
+- **Kafka** (multi-broker **Docker Compose** stack), topics provisioned at startup; **PostgreSQL** for local runs
+- **Testcontainers** where enabled in modules for integration-oriented tests
 
 ### **📚 Library — readers & books (Spring Data JPA)** | [View Repository](https://github.com/Levasey/com.springDataJPA.library)
 *Spring Boot 3, Spring Data JPA, Hibernate 6, Flyway, Spring Security (CSRF), Thymeleaf, PostgreSQL, JUnit 5, Mockito*
@@ -88,6 +102,7 @@
 
 | Project | Stack / note | Link |
 |--------|----------------|------|
+| **Saga + Kafka** | Spring Boot, PostgreSQL, Kafka, Saga orchestration, Docker Compose | [saga-pattern-spring-boot](https://github.com/Levasey/saga-pattern-spring-boot) |
 | Spring blog (Hexlet) | Spring MVC, classic web | [hexlet-spring-blog](https://github.com/Levasey/hexlet-spring-blog) |
 | Algorithms practice | Java drills | [grokking-algorithms](https://github.com/Levasey/grokking-algorithms) · [algorithms-project-69](https://github.com/Levasey/algorithms-project-69) |
 
@@ -115,10 +130,12 @@
 - **Databases**: PostgreSQL, schema design, migrations (**Flyway** / **Liquibase**), transactions
 - **APIs**: REST principles, OpenAPI/Swagger where applicable
 - **Testing**: JUnit 5, Mockito, integration tests for web layers
+- **Messaging (learning / portfolio)**: Apache Kafka with **Spring Kafka** — topics, commands vs events, multi-service flow (**Saga** demo)
 
 ### **Currently deepening**
-- **Docker Compose** and deployment-shaped setups
+- **Docker Compose** and deployment-shaped setups (multi-service + Kafka cluster locally)
 - **CI/CD** (GitHub Actions-first)
+- **Distributed workflows**: saga-style **orchestration**, **compensation**, reliability basics — grounded in the Kafka demo
 - **System design** foundations (reliability, scaling, caching — learning curve)
 
 ---
@@ -126,6 +143,7 @@
 ## 📝 Education
 
 - **Hexlet** — Java Developer (**2025–2026**, Hexlet карьера)
+- **СПбГУ ГА**, инженер по направлению аэронавигационное обслуживание (**2014**) — *from résumé*
 - **JavaRush** — Java Core (29 levels completed)
 
 **Self-directed**
@@ -159,8 +177,8 @@ public final class AboutMe {
     private static final String NAME = "Mikhail Sazhin";
     private static final String ROLE = "Backend Java Engineer";
 
-    /** Focused learning + shipped pet/learning projects (not commercial dev tenure). */
-    private static final String EXPERIENCE_NOTE = "~1.5 years hands-on (projects + courses)";
+    /** Hexlet track + shipped learning projects (portfolio — see GitHub). */
+    private static final String EXPERIENCE_NOTE = "~1 year 3 months Hexlet + ~1.5 years focused practice";
 
     private static final List<String> PRIMARY_SKILLS = List.of(
             "Java 17+",
@@ -169,21 +187,24 @@ public final class AboutMe {
             "PostgreSQL",
             "REST APIs",
             "Spring Security",
-            "Docker",
+            "Docker / Docker Compose",
+            "Apache Kafka / Spring Kafka",
             "JUnit 5 / Mockito"
     );
 
     private static final Map<String, String> CAREER = Map.of(
             "Status", "Open to opportunities",
-            "Format", "Remote / Hybrid / On-site",
+            "Format", "Remote (preferred — résumé); Hybrid / On-site — discuss",
             "Location", "Russia (relocation — discuss)",
-            "Commitment", "Full-time / contract — discuss"
+            "Commitment", "Full-time / part-time / project — discuss"
     );
 
     public String summary() {
         return """
-                Backend-focused Java developer. Strongest public work: Spring Boot service \
-                with JPA, Flyway, Security, tests (see pinned repo). Learning CI/CD and \
-                system design; comfortable with SQL and pragmatic API design.""";
+                Backend-focused Java developer. Strongest public work: Spring Boot + JPA \
+                library project (Flyway, Security, tests — pinned repo). Also shipping a \
+                Kafka-based Saga orchestration demo (multi-module Spring Boot, Docker Compose). \
+                Learning CI/CD and system design; comfortable with SQL and pragmatic API design.""";
     }
 }
+```
