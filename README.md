@@ -143,7 +143,7 @@
 ## 📝 Education
 
 - **Hexlet** — Java Developer (**2025–2026**, Hexlet карьера)
-- **СПбГУ ГА**, инженер по направлению аэронавигационное обслуживание (**2014**) — *from résumé*
+- **СПбГУ ГА**, инженер по направлению аэронавигационное обслуживание (**2014**)
 - **JavaRush** — Java Core (29 levels completed)
 
 **Self-directed**
@@ -162,7 +162,7 @@ If you have merged PRs — add one line each, e.g. `Contributed to hexlet-cv: <p
 
 [![Email](https://img.shields.io/badge/email-michail--s1988%40rambler.ru-D14836?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:michail-s1988@rambler.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-Levasey-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Levasey)
-[![Telegram](https://img.shields.io/badge/Telegram-Levasey1666-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Levasey1666)
+[![Telegram](https://img.shields.io/badge/Telegram-Levasey1666-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Livesey1777)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Levasey/)
 
 </div>
