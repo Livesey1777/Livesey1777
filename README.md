@@ -161,8 +161,8 @@ If you have merged PRs — add one line each, e.g. `Contributed to hexlet-cv: <p
 <div align="center">
 
 [![Email](https://img.shields.io/badge/email-michail--s1988%40rambler.ru-D14836?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:michail-s1988@rambler.ru)
-[![GitHub](https://img.shields.io/badge/GitHub-Levasey-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Levasey)
-[![Telegram](https://img.shields.io/badge/Telegram-Levasey1666-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Livesey1777)
+[![GitHub](https://img.shields.io/badge/GitHub-Livesey1777-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Livesey1777)
+[![Telegram](https://img.shields.io/badge/Telegram-Livesey1777-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Livesey1777)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Levasey/)
 
 </div>
