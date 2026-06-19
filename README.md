@@ -112,11 +112,11 @@
 
 <div align="center">
 
-![Mikhail's GitHub stats](https://github-readme-stats.vercel.app/api?username=Levasey&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
+![Mikhail's GitHub stats](https://github-readme-stats.vercel.app/api?username=Livesey1777&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Levasey&layout=compact&theme=dark&hide_border=true&langs_count=8&exclude_repo=github-readme-stats)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Livesey1777&layout=compact&theme=dark&hide_border=true&langs_count=8&exclude_repo=github-readme-stats)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Levasey&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)
+![GitHub Streak](https://streak-stats.demolab.com?user=Livesey1777&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)
 
 </div>
 
